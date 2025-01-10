@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["WATCHING MAFIA", "Watching len(guild.members)"];
+const statusMessages = ["𝐌𝐀𝐅𝐈𝐀💚", `𝐖𝐀𝐓𝐂𝐇𝐈𝐍𝐆 ${len(guild.members)} 𝐌𝐄𝐌𝐁𝐄𝐑𝐒`];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
